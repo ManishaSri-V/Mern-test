@@ -1,0 +1,183 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+.employee-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.employee-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 100%;
+}
+
+.employee-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.employee-form input[type="text"],
+.employee-form input[type="email"],
+.employee-form input[type="number"],
+.employee-form select,
+.employee-form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #555;
+}
+
+.employee-form input[type="radio"],
+.employee-form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.employee-form .label {
+  font-size: 14px;
+  color: #333;
+}
+
+.employee-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.employee-form button:hover {
+  background-color: #218838;
+}
+
+.employee-form input[type="file"] {
+  padding: 0;
+}
+
+.employee-form label input[type="checkbox"],
+.employee-form label input[type="radio"] {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.btn-custom .btn-danger {
+  margin: 30px;
+}
+
+@media (max-width: 600px) {
+  .employee-form {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+.employee-item {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee-item-key {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.employee-item-key input,
+.employee-item-key select {
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.label-gender {
+  text-align: left;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.label-course {
+  text-align: left;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+table.list {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table.list th,
+table.list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table.list th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 15px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+
+button.btn-custom {
+  font-weight: bold;
+}
+
+button.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+button.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+label input[type="checkbox"],
+label input[type="radio"] {
+  margin-left: 5px;
+}
